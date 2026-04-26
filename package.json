@@ -1,0 +1,11 @@
+{
+  "name": "ecg-review",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "ECG review demo - no build step, no npm install required. Dependencies load from esm.sh + Tailwind Play CDN.",
+  "scripts": {
+    "start": "node serve.mjs",
+    "data": "node scripts/generate-data.mjs"
+  }
+}
